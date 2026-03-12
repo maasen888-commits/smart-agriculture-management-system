@@ -2,6 +2,10 @@
 
 > 面向连栋玻璃温室的多角色协同管理平台：数据接入、可视化看板、视觉识别、AI 建议、专家审批、工人执行、调度与可观测性一体化。
 
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](./LICENSE)
+[![Stack: Next.js + FastAPI](https://img.shields.io/badge/Stack-Next.js%20%2B%20FastAPI-111827)](#技术栈)
+[![Deploy: Docker Compose](https://img.shields.io/badge/Deploy-Docker%20Compose-2496ED)](#生产部署)
+
 ## 项目简介
 
 本项目是一个可落地的智慧农业管理系统参考实现，聚焦温室运营核心闭环：
@@ -11,6 +15,13 @@
 3. 决策：生成 AI 建议并入库为待审任务。
 4. 执行：专家审批后派发给工人，回填结构化执行结果。
 5. 观测：统一调度中心与可观测中心，便于运维与追踪。
+
+## 适用场景
+
+- 智能温室运营管理后台
+- 温室环境与水肥时序数据治理
+- 病害识别与 AI 辅助建议闭环
+- 园艺、植保、环控、水肥任务协同执行
 
 ## 核心能力
 
@@ -215,4 +226,11 @@ bash scripts/verify.sh production
 
 ## License
 
-当前仓库未附带开源许可证；如需对外发布，请先补充 License 与第三方依赖合规清单。
+本项目采用 [Apache License 2.0](./LICENSE)。
+
+对二次开发者的含义：
+
+- 允许商业使用、修改、分发
+- 需要保留许可证与版权声明
+- 如果你修改了项目，建议明确标注变更内容
+- 仓库内第三方依赖仍需分别遵守其原始许可证
