@@ -1,0 +1,46 @@
+<svg width="1440" height="860" viewBox="0 0 1440 860" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="860" rx="24" fill="#F7F6F1"/>
+  <rect x="32" y="32" width="1376" height="90" rx="24" fill="#FFFFFF"/>
+  <text x="72" y="82" fill="#1E293B" font-size="36" font-family="Arial, sans-serif" font-weight="700">AI 智能解析</text>
+  <text x="72" y="112" fill="#64748B" font-size="18" font-family="Arial, sans-serif">基于真实 partner_api 数据、知识库证据与 AI 生成的双层专业解析</text>
+
+  <rect x="32" y="146" width="668" height="248" rx="24" fill="#FFFFFF"/>
+  <rect x="724" y="146" width="684" height="248" rx="24" fill="#FFFFFF"/>
+  <text x="64" y="192" fill="#1E293B" font-size="28" font-family="Arial, sans-serif" font-weight="700">管理层摘要</text>
+  <text x="64" y="236" fill="#0F172A" font-size="24" font-family="Arial, sans-serif">过去 24 小时整体运行稳定，2 个分区湿度偏高，施肥机 EC 波动需要复核。</text>
+  <text x="64" y="286" fill="#64748B" font-size="20" font-family="Arial, sans-serif">风险等级：中等</text>
+  <text x="64" y="320" fill="#64748B" font-size="20" font-family="Arial, sans-serif">页面刷新时间：2026-03-12 15:30</text>
+  <text x="64" y="354" fill="#64748B" font-size="20" font-family="Arial, sans-serif">数据最新采样时间（+08:00）：2026-03-12 15:25</text>
+
+  <text x="756" y="192" fill="#1E293B" font-size="28" font-family="Arial, sans-serif" font-weight="700">专家解析</text>
+  <rect x="756" y="222" width="620" height="56" rx="16" fill="#FEF3C7"/>
+  <rect x="756" y="292" width="620" height="56" rx="16" fill="#E0F2FE"/>
+  <rect x="756" y="362" width="620" height="16" rx="8" fill="#E2E8F0"/>
+  <text x="784" y="258" fill="#92400E" font-size="19" font-family="Arial, sans-serif">问题：2号温室北区湿度连续 3 小时高于经验区间，建议优先检查通风与喷雾联动。</text>
+  <text x="784" y="328" fill="#075985" font-size="19" font-family="Arial, sans-serif">问题：1号温室施肥机 EC 波动高于近 7 天均值，建议复核母液与回液稳定性。</text>
+
+  <rect x="32" y="426" width="436" height="380" rx="24" fill="#FFFFFF"/>
+  <rect x="502" y="426" width="436" height="380" rx="24" fill="#FFFFFF"/>
+  <rect x="972" y="426" width="436" height="380" rx="24" fill="#FFFFFF"/>
+
+  <text x="64" y="470" fill="#1E293B" font-size="26" font-family="Arial, sans-serif" font-weight="700">分区风险排行</text>
+  <rect x="64" y="510" width="300" height="26" rx="13" fill="#F59E0B"/>
+  <rect x="64" y="556" width="248" height="26" rx="13" fill="#FB7185"/>
+  <rect x="64" y="602" width="214" height="26" rx="13" fill="#2A9D8F"/>
+  <text x="64" y="500" fill="#64748B" font-size="18" font-family="Arial, sans-serif">2号温室北区</text>
+  <text x="64" y="546" fill="#64748B" font-size="18" font-family="Arial, sans-serif">1号温室南区</text>
+  <text x="64" y="592" fill="#64748B" font-size="18" font-family="Arial, sans-serif">育苗区</text>
+
+  <text x="534" y="470" fill="#1E293B" font-size="26" font-family="Arial, sans-serif" font-weight="700">24 小时趋势</text>
+  <polyline points="540,726 596,700 652,684 708,694 764,650 820,642 876,620" stroke="#2A9D8F" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <polyline points="540,744 596,734 652,720 708,738 764,714 820,688 876,674" stroke="#EA580C" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <text x="540" y="774" fill="#64748B" font-size="18" font-family="Arial, sans-serif">温度 / 湿度 / EC 变化由真实样本聚合生成</text>
+
+  <text x="1004" y="470" fill="#1E293B" font-size="26" font-family="Arial, sans-serif" font-weight="700">建议草稿与证据</text>
+  <rect x="1004" y="512" width="372" height="84" rx="18" fill="#F8FAFC"/>
+  <rect x="1004" y="612" width="372" height="84" rx="18" fill="#F8FAFC"/>
+  <text x="1032" y="548" fill="#0F172A" font-size="20" font-family="Arial, sans-serif" font-weight="700">草稿 01：复核北区通风阈值</text>
+  <text x="1032" y="576" fill="#64748B" font-size="17" font-family="Arial, sans-serif">数据证据 + 知识依据 双引用齐全</text>
+  <text x="1032" y="648" fill="#0F172A" font-size="20" font-family="Arial, sans-serif" font-weight="700">草稿 02：检查施肥机回液稳定性</text>
+  <text x="1032" y="676" fill="#64748B" font-size="17" font-family="Arial, sans-serif">DeepSeek 主链路 / 本地规则兜底可追踪</text>
+</svg>

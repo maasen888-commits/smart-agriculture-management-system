@@ -18,6 +18,36 @@
 4. 执行：专家审批后派发给工人，回填结构化执行结果。
 5. 观测：统一调度中心与可观测中心，便于运维与追踪。
 
+## 系统预览
+
+### 1. 运营总览首页
+
+![运营总览首页预览](./docs/assets/dashboard-preview.svg)
+
+首页聚合展示温室分区态势、环境指标、执行器状态、系统异常与 24 小时趋势，适合作为管理者的第一视图。
+
+### 2. AI 智能解析
+
+![AI 智能解析预览](./docs/assets/ai-insights-preview.svg)
+
+围绕真实数据、知识依据与 AI 结论构建双层输出，兼顾管理层摘要与专家层解析，并支持建议草稿确认入库。
+
+### 3. 病害识别与任务闭环
+
+![病害识别与任务闭环预览](./docs/assets/vision-tasks-preview.svg)
+
+从视觉识别、异步状态更新，到专家审批、工人执行、结构化回填，形成完整业务闭环。
+
+## 系统演示
+
+建议按下面顺序体验：
+
+1. 登录系统，查看首页运营总览与分区态势
+2. 进入 `智能建议 -> AI 智能解析` 查看摘要、证据和建议草稿
+3. 进入 `病害识别` 上传图片，观察异步识别与状态更新
+4. 进入 `专家审批` 和 `工人执行` 验证任务流转
+5. 进入 `调度中心` 与 `可观测中心` 查看系统后台运行状态
+
 ## 适用场景
 
 - 智能温室运营管理后台
@@ -196,6 +226,7 @@ bash scripts/verify.sh production
 ## 文档导航
 
 - 项目任务与进度：[`docs/project-plan.md`](docs/project-plan.md)
+- 首次公开发布说明：[`docs/releases/v0.1.0.md`](docs/releases/v0.1.0.md)
 - 云端上线清单：[`docs/production-go-live-checklist.md`](docs/production-go-live-checklist.md)
 - 从 0 到 1 启动与参数修改：[`docs/zero-to-one-setup-guide.md`](docs/zero-to-one-setup-guide.md)
 - 贡献说明：[`CONTRIBUTING.md`](CONTRIBUTING.md)
