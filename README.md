@@ -196,6 +196,7 @@ bash scripts/verify.sh production
 - 项目任务与进度：[`docs/project-plan.md`](docs/project-plan.md)
 - 云端上线清单：[`docs/production-go-live-checklist.md`](docs/production-go-live-checklist.md)
 - 从 0 到 1 启动与参数修改：[`docs/zero-to-one-setup-guide.md`](docs/zero-to-one-setup-guide.md)
+- 贡献说明：[`CONTRIBUTING.md`](CONTRIBUTING.md)
 - 私有资料处理说明：[`docs/private-materials.md`](docs/private-materials.md)
 - 市场价值测算：[`docs/market-value-estimate.md`](docs/market-value-estimate.md)
 

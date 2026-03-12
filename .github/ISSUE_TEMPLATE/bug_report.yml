@@ -1,0 +1,79 @@
+name: Bug 报告
+description: 提交一个可复现的问题，帮助我们快速定位和修复。
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈问题。请尽量填写完整信息，尤其是复现步骤和报错内容。
+  - type: input
+    id: summary
+    attributes:
+      label: 问题概述
+      description: 用一句话描述问题。
+      placeholder: 例如：病害识别页面上传成功后任务状态一直停留在 PROCESSING
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: 影响范围
+      options:
+        - 前端页面
+        - 后端接口
+        - 调度任务
+        - AI 智能解析
+        - 视觉识别
+        - 生产部署
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请按顺序写出复现过程。
+      placeholder: |
+        1. 打开 ...
+        2. 点击 ...
+        3. 输入 ...
+        4. 出现 ...
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+      placeholder: 实际发生了什么？
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果
+      placeholder: 你原本期望看到什么？
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 截图 / 日志 / 报错信息
+      description: 请尽量脱敏，不要粘贴真实密钥、真实系统 ID、客户数据。
+      render: shell
+  - type: input
+    id: environment
+    attributes:
+      label: 环境信息
+      description: 如 macOS / Docker / Node / Python / 浏览器版本等
+      placeholder: macOS 15, Node 20, Python 3.11, Chrome 135
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已经检查过没有提交或粘贴任何真实密钥、真实系统 ID 或客户隐私信息
+          required: true
+        - label: 我已经阅读 README 或启动文档，并确认这不是配置遗漏导致的问题
+          required: false

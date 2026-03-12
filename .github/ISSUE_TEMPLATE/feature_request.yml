@@ -1,0 +1,68 @@
+name: 功能建议
+description: 提交一个新功能、重构方向或产品改进建议。
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎提出功能建议。请尽量说明业务背景、价值和预期效果。
+  - type: input
+    id: summary
+    attributes:
+      label: 功能标题
+      placeholder: 例如：新增温室执行器联动总览面板
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景与问题
+      description: 当前流程里有什么痛点？
+      placeholder: 例如：目前首页只能看到环境指标，无法直观看到天窗、侧幕、风机的联动状态
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+      description: 你期望系统如何改进？
+      placeholder: 例如：在首页增加执行器状态区块，并支持分区展开查看最近状态变化
+    validations:
+      required: true
+  - type: dropdown
+    id: business_area
+    attributes:
+      label: 所属模块
+      options:
+        - 数据总览
+        - 传感器数据
+        - 病害识别
+        - AI 智能解析
+        - 任务中心
+        - 园艺 / 植保 / 环控 / 水肥设置
+        - 调度中心
+        - 可观测中心
+        - 部署与运维
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: 业务价值
+      description: 这个功能会提升什么？
+      placeholder: 例如：减少人工判断成本，提高异常响应效率
+  - type: textarea
+    id: reference
+    attributes:
+      label: 参考信息
+      description: 可填写原型、截图、接口想法、竞品参考等
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我确认该建议不包含真实客户资料、密钥或私有合作方文档内容
+          required: true

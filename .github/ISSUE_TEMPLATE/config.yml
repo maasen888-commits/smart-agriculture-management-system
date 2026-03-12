@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 阅读贡献说明
+    url: https://github.com/maasen888-commits/smart-agriculture-management-system/blob/main/CONTRIBUTING.md
+    about: 提交 Issue 或 PR 前，请先阅读贡献约定与隐私边界。
