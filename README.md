@@ -20,21 +20,27 @@
 
 ## 系统预览
 
+### 演示 GIF
+
+![系统演示 GIF](./docs/assets/system-demo.gif)
+
+这是一组公开安全的演示画面，用于展示首页总览、AI 智能解析和任务闭环三个核心界面，不包含真实客户数据。
+
 ### 1. 运营总览首页
 
-![运营总览首页预览](./docs/assets/dashboard-preview.svg)
+![运营总览首页预览](./docs/assets/exported/dashboard-preview.svg.png)
 
 首页聚合展示温室分区态势、环境指标、执行器状态、系统异常与 24 小时趋势，适合作为管理者的第一视图。
 
 ### 2. AI 智能解析
 
-![AI 智能解析预览](./docs/assets/ai-insights-preview.svg)
+![AI 智能解析预览](./docs/assets/exported/ai-insights-preview.svg.png)
 
 围绕真实数据、知识依据与 AI 结论构建双层输出，兼顾管理层摘要与专家层解析，并支持建议草稿确认入库。
 
 ### 3. 病害识别与任务闭环
 
-![病害识别与任务闭环预览](./docs/assets/vision-tasks-preview.svg)
+![病害识别与任务闭环预览](./docs/assets/exported/vision-tasks-preview.svg.png)
 
 从视觉识别、异步状态更新，到专家审批、工人执行、结构化回填，形成完整业务闭环。
 
@@ -226,6 +232,7 @@ bash scripts/verify.sh production
 ## 文档导航
 
 - 项目任务与进度：[`docs/project-plan.md`](docs/project-plan.md)
+- 版本变更记录：[`CHANGELOG.md`](CHANGELOG.md)
 - 首次公开发布说明：[`docs/releases/v0.1.0.md`](docs/releases/v0.1.0.md)
 - 云端上线清单：[`docs/production-go-live-checklist.md`](docs/production-go-live-checklist.md)
 - 从 0 到 1 启动与参数修改：[`docs/zero-to-one-setup-guide.md`](docs/zero-to-one-setup-guide.md)
