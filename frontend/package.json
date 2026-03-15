@@ -24,7 +24,7 @@
     "@auth/prisma-adapter": "^2.11.1",
     "@prisma/adapter-pg": "^7.4.2",
     "@prisma/client": "^7.4.2",
-    "antd": "^5.29.3",
+    "antd": "^6.3.2",
     "bcryptjs": "^3.0.3",
     "dayjs": "^1.11.19",
     "next": "^16.1.6",
