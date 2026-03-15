@@ -2,9 +2,9 @@
 
 > 面向连栋玻璃温室的多角色协同管理平台：数据接入、可视化看板、视觉识别、AI 建议、专家审批、工人执行、调度与可观测性一体化。
 
-[![License: PolyForm Noncommercial](https://img.shields.io/badge/License-PolyForm%20Noncommercial-orange.svg)](./LICENSE)
-[![Stack: Next.js + FastAPI](https://img.shields.io/badge/Stack-Next.js%20%2B%20FastAPI-111827)](#技术栈)
-[![Deploy: Docker Compose](https://img.shields.io/badge/Deploy-Docker%20Compose-2496ED)](#生产部署)
+- 许可：`PolyForm Noncommercial 1.0.0`
+- 技术栈：`Next.js + FastAPI + PostgreSQL/TimescaleDB + Redis + Celery`
+- 部署方式：`Docker Compose`
 
 > 许可说明：本仓库为公开源码项目，默认仅允许非商用使用、学习、研究和内部评估，不允许未经授权的商业使用。
 
@@ -22,25 +22,19 @@
 
 ### 演示 GIF
 
-![系统演示 GIF](./docs/assets/system-demo.gif)
+公开仓库已移除图片与 GIF 资源，避免后续维护时产生额外的静态资源管理负担。
 
-这是一组公开安全的演示画面，用于展示首页总览、AI 智能解析和任务闭环三个核心界面，不包含真实客户数据。
+你仍然可以通过下面的模块说明快速理解系统结构。
 
 ### 1. 运营总览首页
-
-![运营总览首页预览](./docs/assets/exported/dashboard-preview.svg.png)
 
 首页聚合展示温室分区态势、环境指标、执行器状态、系统异常与 24 小时趋势，适合作为管理者的第一视图。
 
 ### 2. AI 智能解析
 
-![AI 智能解析预览](./docs/assets/exported/ai-insights-preview.svg.png)
-
 围绕真实数据、知识依据与 AI 结论构建双层输出，兼顾管理层摘要与专家层解析，并支持建议草稿确认入库。
 
 ### 3. 病害识别与任务闭环
-
-![病害识别与任务闭环预览](./docs/assets/exported/vision-tasks-preview.svg.png)
 
 从视觉识别、异步状态更新，到专家审批、工人执行、结构化回填，形成完整业务闭环。
 

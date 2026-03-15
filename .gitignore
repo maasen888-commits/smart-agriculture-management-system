@@ -9,6 +9,7 @@ out/
 __pycache__/
 *.pyc
 backend/venv/
+backend/.ci-venv/
 scripts/backend/venv/
 .venv/
 
