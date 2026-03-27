@@ -1,10 +1,10 @@
-FROM node:20-alpine AS deps
+FROM node:25-alpine AS deps
 
 WORKDIR /app/frontend
 COPY frontend/package.json frontend/package-lock.json ./
 RUN npm ci
 
-FROM node:20-alpine AS builder
+FROM node:25-alpine AS builder
 
 WORKDIR /app/frontend
 COPY --from=deps /app/frontend/node_modules ./node_modules
@@ -12,7 +12,7 @@ COPY frontend ./
 ENV NEXT_TELEMETRY_DISABLED=1
 RUN npx prisma generate --schema prisma/schema.prisma && npm run build
 
-FROM node:20-alpine AS runner
+FROM node:25-alpine AS runner
 
 ENV NODE_ENV=production \
     NEXT_TELEMETRY_DISABLED=1 \
